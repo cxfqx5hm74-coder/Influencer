@@ -12,10 +12,24 @@ Hrozek Studio je webová aplikace pro správu sociálních sítí uživatele z j
 - Možnost naplánovat termín publikace.
 - Dashboard se statistikou posledního příspěvku.
 
-## Produktový směr
+## Aktuální stav
 
-Projekt začíná jako jednoduchý, intuitivní pomocník pro influencera. Cílem není přeplněný enterprise nástroj, ale praktické studio pro každodenní tvorbu obsahu.
+Repozitář obsahuje první funkční React frontend pro kontrolu UX. Aplikace má obrazovky Dnes, Vytvořit, Plán a Více.
 
-## Stav
+Součástí první verze je režim Běžné sítě / Adult / Obojí, jednoduchý dashboard, inbox nápadů, osobní kalendář, tvorba obsahu, výběr cílových sítí, návrhy textů, plán obsahu a základní rozšířený režim pro AI, live a merch.
 
-Inicializovaný repozitář pro první MVP vývoj.
+## Spuštění lokálně
+
+Použij npm install a potom npm run dev. Pro produkční build použij npm run build a npm run preview.
+
+## Další technické kroky
+
+1. Doplnit reálné databázové údaje do lokální konfigurace.
+2. Přidat přihlášení uživatele.
+3. Napojit dashboard na databázi.
+4. Přidat ukládání nápadů, kalendáře a plánovaných příspěvků.
+5. Připravit staging deploy.
+
+## Produktové pravidlo
+
+Jednoduchý režim je výchozí. Rozšířený režim existuje pro profesionály, studio a agenturu, ale nesmí překážet běžnému člověku, který chce rychle postnout story.
